@@ -1,4 +1,6 @@
 //comment one
+//comment two
+//comment three
 import acm.graphics.GImage;
 import acm.graphics.GLabel;
 import acm.program.GraphicsProgram;
@@ -11,7 +13,7 @@ public class SimplePicture extends GraphicsProgram {
 	}
 	
 	public void run() {
-		GImage robot = new GImage("robot.jpg", 200, 100);
+		GImage robot = new GImage("robot.jpg", 300, 100);
 		add(robot);
 		GLabel label = new GLabel("How I feel when it's a Friday", 200, 400);
 		add(label);
